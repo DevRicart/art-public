@@ -89,3 +89,15 @@
 .text-footer {
     font-size: 13px;
 }
+
+/* ====== Responsivo ======= */
+
+@media (min-width: 768px) {
+  .main-photo {
+    width: 390px;
+  }
+
+  .main-whatsapp {
+    width: 390px;
+  }
+}

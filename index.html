@@ -48,18 +48,20 @@
     </header>
     <main>
         <section id="home" class="bg-color-green-linear pt-20">
-            <div class="text-center pt-6">
-                <h1 class="text-xl uppercase">Impulsione a sua marca</h1>
-                <h2 class="text-sm">nossa missão é fazer o seu negócio ir além!</h2>
-                <div class="my-6">
-                    <a href="" class="primary-whatsapp bg-color-bege rounded-3xl py-2 px-8">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        Transforme seu negócio
-                    </a>
+            <div class="md:flex md:justify-center">
+                <div class="text-center pt-6">
+                    <h1 class="text-xl uppercase md:text-3xl">Impulsione a sua marca</h1>
+                    <h2 class="text-sm md:text-base">nossa missão é fazer o seu negócio ir além!</h2>
+                    <div class="my-6">
+                        <a href="" class="main-whatsapp primary-whatsapp bg-color-bege rounded-3xl py-2 px-8 md:text-2  xl">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Transforme seu negócio
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src="./src/img/main-img.png" alt="">
+                <div>
+                    <img class="main-photo" src="./src/img/main-img.png" alt="">
+                </div>
             </div>
         </section>
         <section id="services" class="bg-color-bege-3 py-10">
@@ -103,7 +105,7 @@
         <section id="work" class="bg-color-bege-50 py-10">
             <h1 class="uppercase text-center text-2xl pb-6">Conheça nosso trabalho</h1>
             <div class="flex justify-center mb-6">
-                <p class="w-64 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                <p class="w-64 md:w-full md:mx-10 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
                     a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
                     remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
@@ -119,16 +121,28 @@
                         </iframe>
                       </div>
                       <div class="swiper-slide">
-                        <video src="./src/videos/art wave.mov" autoplay loop muted controls></video>
+                        <iframe width="200" height="356" src="https://youtube.com/embed/PgSbWv6Um5Y?autoplay=1&mute=1" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                       </div>
                       <div class="swiper-slide">
-                        <video src="./src/videos/mulheres no ramo.mov" autoplay loop muted controls></video>
+                        <iframe width="200" height="356" src="https://youtube.com/embed/bJ7-mznnSEE?autoplay=1&mute=1" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                       </div>
                       <div class="swiper-slide">
-                        <video src="./src/videos/5 motivos para ter um corretor.mov" autoplay loop muted controls></video>
+                        <iframe width="200" height="356" src="https://youtube.com/embed/d1iU7ISbCXE?autoplay=1&mute=1" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                       </div>
                       <div class="swiper-slide">
-                        <video src="./src/videos/bairro planejado.mov" autoplay loop muted controls></video>
+                        <iframe width="200" height="356" src="https://youtube.com/embed/pq_rpiM9ki0?autoplay=1&mute=1" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                       </div>
                       <!-- Adicione mais vídeos conforme necessário -->
                     </div>
@@ -144,25 +158,27 @@
         </section>
         <section id="contact" class="bg-color-green pt-10">
             <h1 class="uppercase text-center text-2xl pb-6">Contato</h1>
-            <div>
-                <div class="flex flex-col items-center justify-center gap-3">
-                    <a class="contact-link bg-color-bege-2 primary-whatsapp rounded-3xl py-2 px-8" href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        Não perca essa oportunidade!
-                    </a>
-                    <a class="contact-link bg-color-bege-2 primary-whatsapp rounded-3xl py-2 px-8" href="">
-                        <i class="fa-solid fa-headset"></i>
-                        Marque uma reunião aqui
-                    </a>
+                <div class="md:flex md:justify-end">
+                    <div>
+                        <div class="flex flex-col items-center justify-center gap-3">
+                            <a class="contact-link bg-color-bege-2 primary-whatsapp rounded-3xl py-2 px-8" href="">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                Não perca essa oportunidade!
+                            </a>
+                            <a class="contact-link bg-color-bege-2 primary-whatsapp rounded-3xl py-2 px-8" href="">
+                                <i class="fa-solid fa-headset"></i>
+                                Marque uma reunião aqui
+                            </a>
+                        </div>
+                        <div class="flex justify-start items-center gap-2 ml-5 mt-5">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Rio de Janeiro, RJ</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <img style="width: 250px;" class="" src="./src/img/contact-img.png" alt="">
+                    </div>
                 </div>
-                <div class="flex justify-start items-center gap-2 ml-5 mt-5">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Rio de Janeiro, RJ</p>
-                </div>
-                <div class="flex justify-end">
-                    <img style="width: 250px;" class="" src="./src/img/contact-img.png" alt="">
-                </div>
-            </div>
         </section>
     </main>
     <footer class="bg-color-black py-6">
