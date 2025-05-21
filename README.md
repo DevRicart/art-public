@@ -10,6 +10,12 @@ ART PUBLIC - Landing page
 - Tailwind
 - JavaScript
 
+## Instalação do projeto
+
+Clone o repositório
+Instale as bibliotecas necessárias com npm install
+observe as mudanças do css com npm run watch-css
+
 ## Contatos
 
 <a href="https://www.linkedin.com/in/ricardo-gon/">

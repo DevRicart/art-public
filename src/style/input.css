@@ -37,7 +37,7 @@
 }
 
 .nav-link:hover {
-    color: #242424 !important;
+    color: #F8F5CC !important;
     transition: all 0.3s ease-in-out;
 }
 
@@ -79,6 +79,10 @@
     border: 1px solid #F8F5CC;
 }
 
+.contact-img {
+    width: 250px;
+}
+
 .social-icon:hover {
     background-color: white;
     border: 1px solid black;
@@ -99,5 +103,9 @@
 
   .main-whatsapp {
     width: 390px;
+  }
+
+  .contact-img {
+    width: 330px;
   }
 }

@@ -6,14 +6,11 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 1,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
           1024: {
             slidesPerView: 3,
           },
-          1440: {
-            slidesPerView: 4,
-          }
         },
       spaceBetween: 0,
       pagination: {
