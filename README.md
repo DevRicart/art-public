@@ -16,6 +16,10 @@ Clone o repositório
 Instale as bibliotecas necessárias com npm install
 observe as mudanças do css com npm run watch-css
 
+## Projeto
+O design do projeto foi inteiramente feito no Figma.
+[Link do projeto](https://www.figma.com/design/ALOHMRbei7xI9rqywtrLGu/Projeto-PEX---ART-PUBLIC?node-id=0-1&m=dev&t=Rmwvou0CPRpif3j2-1)
+
 ## Contatos
 
 <a href="https://www.linkedin.com/in/ricardo-gon/">
