@@ -109,3 +109,10 @@
     width: 330px;
   }
 }
+
+@media (min-width: 1024px) {
+  .card {
+    width: 400px !important;
+    height: 350px !important;
+  }
+}

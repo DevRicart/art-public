@@ -27,7 +27,6 @@
     --spacing: 0.25rem;
     --container-2xl: 42rem;
     --container-4xl: 56rem;
-    --container-6xl: 72rem;
     --container-7xl: 80rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
@@ -41,8 +40,12 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --leading-relaxed: 1.625;
@@ -1624,9 +1627,6 @@
   }
   .max-w-4xl {
     max-width: var(--container-4xl);
-  }
-  .max-w-6xl {
-    max-width: var(--container-6xl);
   }
   .max-w-7xl {
     max-width: var(--container-7xl);
@@ -3932,6 +3932,105 @@
       }
     }
   }
+  .lg\:m-0 {
+    @media (width >= 64rem) {
+      margin: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:my-6 {
+    @media (width >= 64rem) {
+      margin-block: calc(var(--spacing) * 6);
+    }
+  }
+  .lg\:mt-5 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:mt-10 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:mb-10 {
+    @media (width >= 64rem) {
+      margin-bottom: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:h-12 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 12);
+    }
+  }
+  .lg\:h-16 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:h-20 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:w-12 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 12);
+    }
+  }
+  .lg\:w-16 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:w-20 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:justify-center {
+    @media (width >= 64rem) {
+      justify-content: center;
+    }
+  }
+  .lg\:gap-8 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:text-center {
+    @media (width >= 64rem) {
+      text-align: center;
+    }
+  }
+  .lg\:text-2xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .lg\:text-3xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .lg\:text-5xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
+  .lg\:text-xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
   .rtl\:rotate-180 {
     &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
       rotate: 180deg;
@@ -4203,6 +4302,12 @@
   }
   .contact-img {
     width: 330px;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    width: 400px !important;
+    height: 350px !important;
   }
 }
 @layer base {
